@@ -28,7 +28,7 @@ build_tags: netgo ledger,
 go: go version go1.19.5 linux/amd64
 
 $ initiad init [moniker] --chain-id stone-8
-# install genesis from github
+$ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-8/genesis.json
 $ cp genesis.json ~/.initia/config/genesis.json
 
 # This will prevent continuous reconnection try. (default P2P_PORT is 26656)
