@@ -4,7 +4,7 @@ Testnet for Initia.
 
 [initia@v0.1.0-beta.19](https://github.com/initia-labs/initia/releases/tag/v0.1.0-beta.19) should be used to run the testnet.
 
-- The genesis event for Stone-1 testnet will occur **2023-04-26T05:30:01.519628518Z (UTC)**
+- The genesis event for Stone-8 testnet will occur **2023-04-26T05:30:01.519628518Z (UTC)**
 
 ## Prerequisites
 * Go v1.19+ or higher
@@ -29,7 +29,6 @@ go: go version go1.19.5 linux/amd64
 
 $ initiad init [moniker] --chain-id stone-8
 # install genesis from github
-# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-8/genesis.json
 $ cp genesis.json ~/.initia/config/genesis.json
 
 # This will prevent continuous reconnection try. (default P2P_PORT is 26656)
