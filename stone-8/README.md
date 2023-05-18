@@ -41,6 +41,21 @@ $ sed -i -e 's/external_address = \"\"/external_address = \"'$(curl httpbin.org/
 $ initiad start
 ```
 
+# How to setup validator
+
+```
+initiad tx mstaking create-validator \
+    --amount=5000000uinit \   # It can be other LP tokens 
+    --pubkey=$(initiad tendermint show-validator) \
+    --moniker="<your_moniker>" \
+    --chain-id=<chain_id> \
+    --from=<key_name> \
+    --commission-rate="0.10" \
+    --commission-max-rate="0.20" \
+    --commission-max-change-rate="0.01" \
+    --identity=<keybase_identity> # (optional) for validator image
+```
+
 ### Known Peers
 ```
 c65d1a7f91d5a9d0c761359d806aed4758fc8006@13.213.52.28:26656
