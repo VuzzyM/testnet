@@ -8,8 +8,6 @@ It exists so the [initia repository](https://github.com/initia-labs/initia) does
 
 * [Stone-9](./stone-9) testnet for Initia
 
-## Getting Started
-
 ## Testnet Status
 
 ### *June 23, 2023 03:05:37 UTC*
