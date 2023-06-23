@@ -7,10 +7,11 @@ Testnet for Initia.
 - The genesis event for Stone-9 testnet started at **2023-06-23T03:05:37.169946746Z (UTC)**
 
 ## Prerequisites
-* Go v1.19+ or higher
-* Git
-* curl
-* jq
+
+- Go v1.19+ or higher
+- Git
+- curl
+- jq
 
 ## How to Setup
 
@@ -47,9 +48,11 @@ $ sed -i -e 's/external_address = \"\"/external_address = \"'$(curl httpbin.org/
 $ initiad start
 ```
 
-# How to setup validator
+## How to setup validator
 
-```
+### Validator Creation
+
+```sh
 initiad tx mstaking create-validator \
     --amount=5000000uinit \   # It can be other LP tokens 
     --pubkey=$(initiad tendermint show-validator) \
@@ -63,6 +66,7 @@ initiad tx mstaking create-validator \
 ```
 
 ### Known Peers
-```
-c65d1a7f91d5a9d0c761359d806aed4758fc8006@13.213.52.28:26656
+
+```sh
+11475272221bc0efa79ffbf0f2e5dfdc40b08900@52.221.241.54:26656
 ```
