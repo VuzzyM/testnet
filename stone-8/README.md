@@ -1,4 +1,4 @@
-# Stone-1
+# Stone-8
 
 Testnet for Initia.
 
