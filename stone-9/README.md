@@ -28,7 +28,7 @@ Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/
 # you can install initiad from the s3
 # $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.20_Linux_x86_64.tar.gz
 # $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.20_Darwin_aarch64.tar.gz
-# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.21_Linux_x86_64.tar
+# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.21_Linux_x86_64.tar.gz
 # $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.21_Darwin_aarch64.tar.gz
 
 # or, build from the source
