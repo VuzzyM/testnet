@@ -2,9 +2,14 @@
 
 Testnet for Initia.
 
-[initia@v0.1.0-beta.20](https://github.com/initia-labs/initia/releases/tag/v0.1.0-beta.20) should be used to run the testnet.
-
 - The genesis event for Stone-9 testnet started at **2023-06-23T03:05:37.169946746Z (UTC)**
+
+## Binaries
+
+| height  | link  |
+| ------- | ----- |
+| 0~12000 | [initia@v0.1.0-beta.20](https://github.com/initia-labs/initia/releases/tag/v0.1.0-beta.20) |
+| 120000~ | [initia@v0.1.0-beta.21](https://github.com/initia-labs/initia/releases/tag/v0.1.0-beta.21) |
 
 ## Prerequisites
 
@@ -17,12 +22,14 @@ Testnet for Initia.
 
 Install binaries from [here](./binaries/) or you can install from the [source code](https://github.com/initia-labs/initia).
 
-Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/stone-8/genesis.json).
+Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/genesis.json).
 
 ```shell
 # you can install initiad from the s3
 # $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.20_Linux_x86_64.tar.gz
 # $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.20_Darwin_aarch64.tar.gz
+# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.21_Linux_x86_64.tar
+# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.21_Darwin_aarch64.tar.gz
 
 # or, build from the source
 $ git clone https://github.com/initia-labs/initia

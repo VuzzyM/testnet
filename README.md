@@ -10,6 +10,10 @@ It exists so the [initia repository](https://github.com/initia-labs/initia) does
 
 ## Testnet Status
 
+### *June 30, 2023 00:00:00 UTC*
+
+* Stone-8 retire
+
 ### *June 23, 2023 03:05:37 UTC*
 
 * Stone-9 live
