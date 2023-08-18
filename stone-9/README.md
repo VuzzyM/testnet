@@ -6,6 +6,8 @@ Testnet for Initia.
 
 ## Binaries
 
+> Please use halt height feature when you sync 0~12000 height to safely stop the node.
+
 | height  | link  |
 | ------- | ----- |
 | 0~12000 | [initia@v0.1.0-beta.20](https://github.com/initia-labs/initia/releases/tag/v0.1.0-beta.20) |
