@@ -6,9 +6,14 @@ It exists so the [initia repository](https://github.com/initia-labs/initia) does
 
 ## Latest networks
 
+* [Stone-10](./stone-10) testnet for Initia
 * [Stone-9](./stone-9) testnet for Initia
 
 ## Testnet Status
+
+### *Aug 18, 2023 02:48:29 UTC*
+
+* Stone-10 live
 
 ### *June 30, 2023 00:00:00 UTC*
 
