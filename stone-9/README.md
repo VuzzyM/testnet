@@ -28,10 +28,12 @@ Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/
 
 ```shell
 # you can install initiad from the s3
-# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.20_Linux_x86_64.tar.gz
-# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.20_Darwin_aarch64.tar.gz
-# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.21_Linux_x86_64.tar.gz
-# $ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.21_Darwin_aarch64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/initia_0.1.0-beta.20_Linux_x86_64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/initia_0.1.0-beta.20_Darwin_aarch64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/initia_0.1.0-beta.21_Linux_x86_64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/initia_0.1.0-beta.21_Darwin_aarch64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/initia_0.1.0-beta.21-stone-9_Linux_x86_64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/initia_0.1.0-beta.21-stone-9_Darwin_aarch64.tar.gz
 
 # or, build from the source
 $ git clone https://github.com/initia-labs/initia
@@ -48,7 +50,7 @@ server_name: initiad
 version: v0.1.0-beta.20
 
 $ initiad init [moniker] --chain-id stone-9
-$ wget https://stone-9.s3.ap-southeast-1.amazonaws.com/genesis.json
+$ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-9/genesis.json
 $ cp genesis.json ~/.initia/config/genesis.json
 
 # This will prevent continuous reconnection try. (default P2P_PORT is 26656)

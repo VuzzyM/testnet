@@ -21,12 +21,12 @@ Testnet for Initia.
 
 Install binaries from [here](./binaries/) or you can install from the [source code](https://github.com/initia-labs/initia).
 
-Download the genesis from [here](https://stone-10.s3.ap-southeast-1.amazonaws.com/genesis.json).
+Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/genesis.json).
 
 ```shell
 # you can install initiad from the s3
-# $ wget https://stone-10.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.23_Darwin_aarch64.tar.gz
-# $ wget https://stone-10.s3.ap-southeast-1.amazonaws.com/initia_0.1.0-beta.23_Linux_x86_64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/initia_0.1.0-beta.23_Darwin_aarch64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/initia_0.1.0-beta.23_Linux_x86_64.tar.gz
 
 # or, build from the source
 $ git clone https://github.com/initia-labs/initia
@@ -43,7 +43,7 @@ server_name: initiad
 version: v0.1.0-beta.23
 
 $ initiad init [moniker] --chain-id stone-10
-$ wget https://stone-10.s3.ap-southeast-1.amazonaws.com/genesis.json
+$ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/genesis.json
 $ cp genesis.json ~/.initia/config/genesis.json
 
 # This will prevent continuous reconnection try. (default P2P_PORT is 26656)
