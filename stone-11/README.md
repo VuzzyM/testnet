@@ -1,14 +1,14 @@
-# Stone-10
+# Stone-11
 
 Testnet for Initia.
 
-- The genesis event for Stone-10 testnet started at **2023-08-18T02:48:29.209302252Z (UTC)**
+- The genesis event for Stone-11 testnet started at **2023-10-05T03:58:46.908179073Z (UTC)**
 
 ## Binaries
 
 | height  | link  |
 | ------- | ----- |
-| 0~      | [initia@v0.1.0-beta.23](https://github.com/initia-labs/initia/releases/tag/v0.1.0-beta.23) |
+| 0~      | [initia@v0.1.1-beta.5](https://github.com/initia-labs/initia/releases/tag/v0.1.1-beta.5) |
 
 ## Prerequisites
 
@@ -21,16 +21,16 @@ Testnet for Initia.
 
 Install binaries from [here](./binaries/) or you can install from the [source code](https://github.com/initia-labs/initia).
 
-Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/genesis.json).
+Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/stone-11/genesis.json).
 
 ```shell
 # you can install initiad from the s3
-# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/initia_0.1.0-beta.23_Darwin_aarch64.tar.gz
-# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/initia_0.1.0-beta.23_Linux_x86_64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-11/initia_0.1.1-beta.5_Darwin_aarch64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-11/initia_0.1.1-beta.5_Linux_x86_64.tar.gz
 
 # or, build from the source
 $ git clone https://github.com/initia-labs/initia
-$ git checkout v0.1.0-beta.23
+$ git checkout v0.1.1-beta.5
 $ make install
 
 $ initiad version --long
@@ -40,10 +40,10 @@ cosmos_sdk_version: v0.47.3
 go: go version go1.20.6 darwin/arm64
 name: initia
 server_name: initiad
-version: v0.1.0-beta.23
+version: v0.1.1-beta.5
 
-$ initiad init [moniker] --chain-id stone-10
-$ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-10/genesis.json
+$ initiad init [moniker] --chain-id stone-11
+$ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-11/genesis.json
 $ cp genesis.json ~/.initia/config/genesis.json
 
 # This will prevent continuous reconnection try. (default P2P_PORT is 26656)
