@@ -8,7 +8,7 @@ Testnet for Initia.
 
 | height  | link  |
 | ------- | ----- |
-| 0~      | [initia@v0.1.1-beta.5](https://github.com/initia-labs/initia/releases/tag/v0.1.1-beta.5) |
+| 0~      | [initia@v0.1.1-beta.7](https://github.com/initia-labs/initia/releases/tag/v0.1.1-beta.7) |
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/
 
 # or, build from the source
 $ git clone https://github.com/initia-labs/initia
-$ git checkout v0.1.1-beta.5
+$ git checkout v0.1.1-beta.7
 $ make install
 
 $ initiad version --long
@@ -40,7 +40,7 @@ cosmos_sdk_version: v0.47.3
 go: go version go1.20.6 darwin/arm64
 name: initia
 server_name: initiad
-version: v0.1.1-beta.5
+version: v0.1.1-beta.7
 
 $ initiad init [moniker] --chain-id stone-11
 $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-11/genesis.json
