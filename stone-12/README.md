@@ -8,7 +8,7 @@ Testnet for Initia.
 
 | height  | link  |
 | ------- | ----- |
-| 0~      | [initia@v0.1.2-beta.5](https://github.com/initia-labs/initia/releases/tag/v0.1.2-beta.5) |
+| 0~      | [initia@v0.1.2-beta.6](https://github.com/initia-labs/initia/releases/tag/v0.1.2-beta.6) |
 
 ## Prerequisites
 
@@ -25,22 +25,22 @@ Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/
 
 ```shell
 # you can install initiad from the s3
-# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-12/initia_0.1.2-beta.5_Darwin_aarch64.tar.gz
-# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-12/initia_0.1.2-beta.5_Linux_x86_64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-12/initia_0.1.2-beta.6_Darwin_aarch64.tar.gz
+# $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-12/initia_0.1.2-beta.6_Linux_x86_64.tar.gz
 
 # or, build from the source
 $ git clone https://github.com/initia-labs/initia
-$ git checkout v0.1.2-beta.5
+$ git checkout v0.1.2-beta.6
 $ make install
 
 $ initiad version --long
 build_tags: netgo,ledger
-commit: 3f62290b17b48c47a30bac135268aa55b45add0d
-cosmos_sdk_version: v0.47.5
+commit: 08915f585470964a260bd127abe5a8ffa15525d3
+cosmos_sdk_version: v0.47.6
 go: go version go1.20.6 darwin/arm64
 name: initia
 server_name: initiad
-version: v0.1.2-beta.5
+version: v0.1.2-beta.6
 
 $ initiad init [moniker] --chain-id stone-12
 $ wget https://initia.s3.ap-southeast-1.amazonaws.com/stone-12/genesis.json
