@@ -7,6 +7,7 @@ It exists so the [initia repository](https://github.com/initia-labs/initia) does
 ## Latest networks
 
 * [Stone-12](./stone-12) testnet for Initia
+  * [Free-3](./free-3) test L2 with initia vm and free tx configuration for Initia
   * [Game-3](./game-3) test L2 with initia vm for Initia
   * [Wasm-3](./wasm-3) test L2 with wasm vm for Initia
 * [Stone-11](./stone-11) testnet for Initia

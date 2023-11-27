@@ -19,7 +19,7 @@ Testnet for Initia.
 
 ## How to Setup
 
-Install binaries from [here](./binaries/) or you can install from the [source code](https://github.com/initia-labs/miniwasm/tree/testnet/game-3).
+Install binaries from [here](./binaries/) or you can install from the [source code](https://github.com/initia-labs/minimove/tree/testnet/game-3).
 
 Download the genesis from [here](https://initia.s3.ap-southeast-1.amazonaws.com/game-3/genesis.json).
 
