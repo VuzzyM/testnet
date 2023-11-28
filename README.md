@@ -17,28 +17,19 @@ It exists so the [initia repository](https://github.com/initia-labs/initia) does
 ### *Nov 21, 2023 09:34:46 UTC*
 
 * Stone-12 live
-* Stone-10 retire
 
-### *Oct 6, 2023 03:58:46 UTC*
+### *Oct 10, 2023 03:58:46 UTC*
 
 * Stone-11 live
 
 ### *Aug 18, 2023 02:48:29 UTC*
 
-* Stone-10 live
-
-### *Aug 18, 2023 00:00:00 UTC*
-
-* Stone-9 retire
-
-### *June 30, 2023 00:00:00 UTC*
-
-* Stone-8 retire
+* Stone-10 retire
 
 ### *June 23, 2023 03:05:37 UTC*
 
-* Stone-9 live
+* Stone-9 retire
 
-### *May 17, 2023 05:30:00 UTC*
+### *May 26, 2023 05:30:00 UTC*
 
-* Stone-8 live
+* Stone-8 retire
