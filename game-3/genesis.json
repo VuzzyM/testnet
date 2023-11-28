@@ -263,7 +263,7 @@
         "max_validators": 100,
         "historical_entries": 10000,
         "min_gas_prices": [],
-        "bridge_executor": "init12mx0x0z9hx25dnga59ev76zf89dmlptnkmfer6"
+        "bridge_executor": "init1m2latx4k9dg2anhdm7nt3eekp0mgpv975u7a49"
       },
       "last_validator_powers": [],
       "validators": [
